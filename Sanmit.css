@@ -20,11 +20,12 @@ html{
 
 .header .logo{
     height: 3rem;
+    width: 160px;
 }
 
 .navbar_list{
     display: flex;
-    gap: 4.8rem;
+    gap: 3.8rem;
     list-style: none;
     /* justify-content: space-around; */
 }
@@ -95,12 +96,7 @@ html{
     text-align: center;
 }
 
-/* .multiple_ser1{
-    display: flex;
-    text-align: center;
-    background-color: red;
-    gap: 4rem;
-} */
+
 
 .container3{
     display: flex;
@@ -121,8 +117,6 @@ html{
     gap: 3rem;
     height: 380px;
     padding-top: 35px;
-    /* align-items: center; */
-
 }
 
 .map_list{
@@ -181,8 +175,6 @@ html{
         display: flex;
         gap: 10px;
         list-style: none;
-        
-        /* justify-content: space-around; */
     }
 
     .navbar_list,li,a{
