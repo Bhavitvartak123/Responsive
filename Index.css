@@ -15,7 +15,7 @@ html{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: aquamarine;
+    background-color: rgb(255,206,236);
 }
 
 .header .logo{
@@ -33,6 +33,7 @@ html{
 
 .navbar_list,li,a{
     text-decoration: none;
+    color: black;
 }
 .contact_btn{
     padding: 13px;
@@ -55,10 +56,15 @@ html{
 }
 
 .div2{
-    height: 150px;
-    background-color: blue;
+    height: 170px;
     padding-top: 39px;
-    padding-left: 45%;
+    text-align: center;
+}
+.cas_stu{
+    color: #990000;
+    font-size: 40px;
+    font-weight: 600px;
+    font-family: sans-serif;
 }
 
 .section3{
@@ -66,8 +72,17 @@ html{
     justify-content: center;
     align-items: center;
     gap: 4rem;
-    height: 650px;
-    background-color: blueviolet;
+    height: 850px;
+    background-color: transparent;
+    background-image: linear-gradient(180deg, #E1D2D2 0%, #B8B8B8 100%);
+}
+
+.Skill_hired{
+    color: #990000;
+}
+
+.skilled_list li::marker {
+    font-size: 1.5rem;
 }
 
 /* Section3 subsection */
@@ -92,12 +107,17 @@ html{
 }
 
 .our_servies{
-    height: 150px;
-    background-color: bisque;
-    padding-top: 40px;
+    height: 160px;
     text-align: center;
 }
 
+.our_servies_sub{
+    color: #990000;
+    font-size: 40px;
+    font-weight: 600px;
+    font-family: sans-serif;
+    padding-top: 40px;
+}
 
 
 .container3{
@@ -119,6 +139,7 @@ html{
     gap: 3rem;
     height: 380px;
     padding-top: 35px;
+    background-color: rgb(255,206,236);
 }
 
 .map_list{
@@ -184,8 +205,11 @@ html{
     }
 
 .div2{
-    padding-top: 45px;
-    padding-left: 35%;
+    text-align: center;
+}
+
+.our_servies_sub{
+    font-size: 35px;
 }
 
 /* Skill_container */
@@ -194,7 +218,7 @@ html{
     display: flex;
     flex-direction: column;
     gap: 1rem;
-    height: 1600px;
+    height: 1700px;
 }
 
 .sec3_div3,img{
@@ -226,5 +250,6 @@ html{
     text-align: center;
     height: 1000px;
 }
+
 
 }
