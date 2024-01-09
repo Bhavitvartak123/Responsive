@@ -197,8 +197,11 @@ html{
     height: 1600px;
 }
 
-.sec3_div3{
-    object-fit: contain;
+.sec3_div3,img{
+    /* object-fit: contain; */
+    
+     width: 90%;
+     margin-left: 4%;
 }
 
 
