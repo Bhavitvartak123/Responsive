@@ -172,11 +172,14 @@ html{
         width: 5rem;
     }
     
+    .navbar{
+        overflow: hidden;
+    }
     .navbar_list{
         display: flex;
         gap: 10px;
         list-style: none;
-        overflow: auto;
+        
     }
 
     .navbar_list,li,a{
