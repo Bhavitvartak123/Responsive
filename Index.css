@@ -88,6 +88,7 @@ html{
     font-weight: bold;
     width: 150px;
     border-radius: 25px;
+    border: 0px;
 }
 
 .our_servies{
@@ -147,12 +148,6 @@ html{
 
 @media (max-width:700px){
 
-    *{
-        padding: 0;
-        margin: 0;
-        box-sizing: border-box;
-        font-family: sans-serif;
-    }
     
     html{
         font-size: 15px;
@@ -161,10 +156,6 @@ html{
     .header{
         padding: 0 1rem;
         height: 5rem;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        background-color: aquamarine;
     }
     
     .header .logo{
@@ -173,37 +164,26 @@ html{
     }
     
     .navbar{
-        overflow: hidden;
-    }
-    .navbar_list{
-        display: flex;
-        gap: 10px;
-        list-style: none;
-        
+        overflow: auto;
     }
 
-    .navbar_list,li,a{
-        text-decoration: none;
-        color: black;
+    .navbar_list{
+        gap: 10px;
     }
+
 
     /* Main */
 
     .section1{
-        background-image: url("Logo/img3.png");
-        background-size: 100% 100%;
-        height: 450px;
-        width: 100%;
-    
+        background-size: 100% 50%;
+        height: 350px;
     }
     .div1{ 
-        padding-top: 200px;
-        padding-left: 150px;
+        padding-left: 30px;
+        text-align: center;
     }
 
 .div2{
-    height: 150px;
-    background-color: blue;
     padding-top: 45px;
     padding-left: 35%;
 }
@@ -213,35 +193,20 @@ html{
 .section3{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     gap: 1rem;
     height: 1600px;
-    background-color: blueviolet;
 }
 
-.btn{
-    padding: 15px;
-    background-color: black;
-    color: white;
-    font-weight: bold;
-    width: 150px;
-    border-radius: 25px;
+.sec3_div3{
+    object-fit: contain;
 }
 
-.our_servies{
-    height: 150px;
-    background-color: bisque;
-    padding-top: 40px;
-    text-align: center;
-}
 
 .container3{
     display: flex;
-    justify-content: center;
     flex-direction: column;
-   
-
+    text-align: center;
+    align-items: center;
 }
 
 .con3_sub{
@@ -254,30 +219,9 @@ html{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    gap: 3rem;
-    height: 1000px;
-    padding-top: 35px;
-}
-
-.map_list{
-    list-style: none;
-}
-
-.map_list,li{
-    padding: 10px;
-}
-
-.map_logo{
-    height: 80px;
-    width: 180px;
-}
-
-.End_foter{
-    height: 120px;
-    background-color: black;
-    color: white;
+    align-items: center;
     text-align: center;
-    padding-top: 45px;
+    height: 1000px;
 }
 
 }
