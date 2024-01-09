@@ -27,6 +27,7 @@ html{
     display: flex;
     gap: 3.8rem;
     list-style: none;
+    
     /* justify-content: space-around; */
 }
 
@@ -175,6 +176,7 @@ html{
         display: flex;
         gap: 10px;
         list-style: none;
+        overflow: auto;
     }
 
     .navbar_list,li,a{
