@@ -1,0 +1,215 @@
+Html
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="AboutUs.css">
+</head>
+
+<body>
+    <header class="header">
+        <img class="logo" src="Logo/SOLU-removebg-preview.png" alt="">
+        <nav class="navbar">
+            <ul class="navbar_list">
+
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Clients</a></li>
+                <li><a href="#">Contact_us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main>
+        <section class="section1">
+            <div class="div1">
+                   
+            </div>
+        </section>
+    </main>
+
+    
+
+
+    <div class="map">
+        <div><img class="map_logo" src="Logo/SOLU-removebg-preview.png" alt="">
+            <h4>HEST SOLUTIONS pvt. ltd.</h4>
+            <p>is a specialist IT Recruitment Firm, <br> founded in 2021.</p>
+        </div>
+        <div>
+            <h2>Quick Links</h2>
+            <ul class="map_list">
+                <li>Home</li>
+                <li>About Us</li>
+                <li>Services</li>
+                <li>Leadership Team</li>
+                <li>Clients</li>
+                <li>Contact Us</li>
+            </ul>
+        </div>
+        <div>
+            <h2>Contact Us</h2>
+            <p>jobsolution@gmail.com <br> virar West 401303</p>
+        </div>
+        <div> <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3761.8974364510714!2d72.80777477005275!3d19.45998833889799!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7a988cc2e6cf3%3A0x111a5c03f3e0e681!2sRam%20Mandir%20Talao!5e0!3m2!1sen!2sin!4v1703584282049!5m2!1sen!2sin"
+                width="250" height="300"></iframe></div>
+    </div>
+
+    <div class="End_foter">
+        <p>© 2022 Hest Solutions PVT. LTD. All Rights Reserved. Design & Development By HUBTECH MEDIA SOLUTIONS</p>
+    </div>
+
+</body>
+
+</html> -->
+
+
+css
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html{
+    font-size: 20px;
+}
+
+.header{
+    padding: 0 4.8rem;
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255,206,236);
+}
+
+.header .logo{
+    height: 3rem;
+    width: 160px;
+}
+
+.navbar_list{
+    display: flex;
+    gap: 3.8rem;
+    list-style: none;
+}
+
+.navbar_list,li,a{
+    text-decoration: none;
+    color: black;
+}
+/* NavbarEnd */
+
+
+
+/* Main */
+.section1{
+    background-image: url("Logo/img3.png") ;
+    background-repeat: no-repeat;
+    height: 450px;
+
+}
+
+
+
+
+
+
+/* Footer */
+
+.map{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    height: 380px;
+    padding-top: 35px;
+    background-color: rgb(255,206,236);
+}
+
+.map_list{
+    list-style: none;
+}
+
+.map_list,li{
+    padding: 10px;
+}
+
+.map_logo{
+    height: 80px;
+    width: 180px;
+}
+
+.End_foter{
+    height: 120px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 45px;
+}
+
+
+
+
+@media (max-width:700px){
+
+    
+    html{
+        font-size: 15px;
+    }
+    
+    .header{
+        padding: 0 1rem;
+        height: 5rem;
+    }
+    
+    .header .logo{
+        height: 3rem;
+        width: 5rem;
+    }
+    
+    .navbar{
+        overflow: auto;
+    }
+
+    .navbar_list{
+        gap: 10px;
+    }
+    /* NavbarEnd */
+
+
+    /* Main */
+
+    .section1{
+        background-size: 100% 50%;
+        height: 350px;
+    }
+
+
+
+
+
+    
+
+/* Footer */
+
+.map{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 1000px;
+}
+
+
+}

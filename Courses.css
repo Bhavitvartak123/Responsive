@@ -1,0 +1,154 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.header{
+    padding: 0 4.8rem;
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255,206,236);
+}
+
+.header .logo{
+    height: 3rem;
+    width: 160px;
+}
+
+.navbar_list{
+    display: flex;
+    gap: 3.8rem;
+    list-style: none;
+}
+
+.navbar_list,li,a{
+    text-decoration: none;
+    color: black;
+}
+/* NavbarEnd */
+
+
+
+/* Main */
+.section1{
+    background-image: url("Logo/img3.png") ;
+    background-repeat: no-repeat;
+    height: 450px;
+
+}
+
+.sec2_div1{
+    display: flex;
+    justify-content: center;
+}
+.sec2_Text{
+    text-align: center;
+}
+
+.Text{
+    font-size: 40px;
+    font-weight: 600px;
+    color: #990000;
+    font-family: sans-serif;
+}
+
+
+
+
+/* Footer */
+
+.map{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    height: 380px;
+    padding-top: 35px;
+    background-color: rgb(255,206,236);
+}
+
+.map_list{
+    list-style: none;
+}
+
+.map_list,li{
+    padding: 10px;
+}
+
+.map_logo{
+    height: 80px;
+    width: 180px;
+}
+
+.End_foter{
+    height: 120px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 45px;
+}
+
+
+
+
+@media (max-width:700px){
+
+    
+    html{
+        font-size: 15px;
+    }
+    
+    .header{
+        padding: 0 1rem;
+        height: 5rem;
+    }
+    
+    .header .logo{
+        height: 3rem;
+        width: 5rem;
+    }
+    
+    .navbar{
+        overflow: auto;
+    }
+
+    .navbar_list{
+        gap: 10px;
+    }
+    /* NavbarEnd */
+
+
+    /* Main */
+
+    .section1{
+        background-size: 100% 50%;
+        height: 350px;
+    }
+
+    .sec2_div1{
+       
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .sec2_div1_sub{
+        display: flex;
+        justify-content: center;
+    }
+
+/* Footer */
+
+.map{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 1000px;
+}
+
+
+}

@@ -1,0 +1,225 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.header{
+    padding: 0 4.8rem;
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255,206,236);
+}
+
+.header .logo{
+    height: 3rem;
+    width: 160px;
+}
+
+.navbar_list{
+    display: flex;
+    gap: 3.8rem;
+    list-style: none;
+}
+
+.navbar_list,li,a{
+    text-decoration: none;
+    color: black;
+}
+/* NavbarEnd */
+
+
+
+/* Main */
+.section1{
+    background-image: url("Logo/img3.png") ;
+    background-repeat: no-repeat;
+    height: 450px;
+
+}
+
+.section2{
+    display: flex;
+    height: 500px;
+    gap: 4rem;
+    justify-content: center;
+}
+
+.sec2_div1_sub{
+    color: #990000;
+    font-size: 40px;
+    font-weight: 600px;
+    font-family: sans-serif;
+}
+
+.section3{
+    height: 450px;
+}
+.sec3_div1{
+    display: flex;
+    justify-content: center;
+}
+.sec3_div1_sub{
+    height: 200px;
+    width: 250px;
+    /* background-color: aqua; */
+    margin: 15px;
+    text-align: center;
+}
+
+.horizontal_bar{
+    height: 35px;
+    background-color: red;
+}
+
+.TECH_STA{
+    display: flex;
+    color: #990000;
+    font-size: 40px;
+    font-weight: 600px;
+    font-family: sans-serif;
+    height: 90px;
+    /* justify-content: center; */
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+/* Footer */
+
+.map{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    height: 380px;
+    padding-top: 35px;
+    background-color: rgb(255,206,236);
+}
+
+.map_list{
+    list-style: none;
+}
+
+.map_list,li{
+    padding: 10px;
+}
+
+.map_logo{
+    height: 80px;
+    width: 180px;
+}
+
+.End_foter{
+    height: 120px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 45px;
+}
+
+
+
+
+@media (max-width:700px){
+
+    
+    html{
+        font-size: 15px;
+    }
+    
+    .header{
+        padding: 0 1rem;
+        height: 5rem;
+    }
+    
+    .header .logo{
+        height: 3rem;
+        width: 5rem;
+    }
+    
+    .navbar{
+        overflow: auto;
+    }
+
+    .navbar_list{
+        gap: 10px;
+    }
+    /* NavbarEnd */
+
+
+    /* Main */
+
+    .section1{
+        background-size: 100% 50%;
+        height: 350px;
+    }
+
+    .section2{
+        flex-direction: column;
+
+        
+    }
+    .sec2_div1{
+
+        text-align: center;
+    }
+    .grp_dis{
+        width: 80%;
+    }
+
+    .section3{
+        height: 1150px;
+        padding-top: 85px;
+
+    }
+    .sec3_div1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .sec3_div1_sub{
+        height: 150px;
+        width: 250px;
+       
+    }
+
+    .TECH_STA{
+        display: flex;
+        color: #990000;
+        font-size: 29px;
+        font-weight: 600px;
+        font-family: sans-serif;
+        height: 90px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .section4{
+        /* display: inline-block */
+        display: inline-block;
+    }
+    
+
+
+
+    
+
+/* Footer */
+
+.map{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 1000px;
+}
+
+
+}
