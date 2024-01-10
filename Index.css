@@ -248,11 +248,9 @@
     text-align: center;
     height: 1200px;
 }
-
-
 }
 
-@media only screen and (max-width: 900px) and (min-width: 800px){
+@media only screen and (max-width: 900px) and (min-width: 700px){
  
     .header{
         padding: 0 6rem;
