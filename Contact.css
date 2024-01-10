@@ -41,21 +41,63 @@
 
 }
 
-.sec2_div1{
+.section2{
     display: flex;
     justify-content: center;
+    gap: 4rem;
+    height: 650px;
 }
-.sec2_Text{
+.sec2_Logo{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
     text-align: center;
+    gap: 2rem;
+    
 }
 
-.Text{
+.sec2_Logo_Img{
+    height: 80px;
+    width: 90px;
+}
+
+.sec2_Text{
     font-size: 40px;
     font-weight: 600px;
     color: #990000;
     font-family: sans-serif;
 }
 
+.btn{
+    padding: 15px;
+    width: 265px;
+    background-color: red;
+    color: white;
+    /* padding: 0px; */
+    border: 0px;
+}
+
+#fname{
+    height: 50px;
+    width: 450px;
+    background-color: #eff2f7;
+    border: 0px;
+}
+
+#fname2{
+    background-color: #eff2f7;
+    border: 0px;
+}
+
+.sub_btn{
+    background-color: black;
+    color: white;
+    padding: 15px;
+    width: 125px;
+    font-size: 20px;
+    border-radius: 8px;
+    border: 0px;
+}
 
 
 
@@ -127,20 +169,21 @@
         background-size: 100% 50%;
         height: 350px;
     }
-
-    .sec2_div1{
-       
+    .section2{
         flex-direction: column;
-        justify-content: center;
+        text-align: center;
+        height: 1200px;
+    }
+    .sec2_Logo{
+        flex-direction: column;
+        
     }
 
-    .sec2_div1_sub{
-        display: flex;
-        justify-content: center;
-    }
+
+
+
+
     
-
-
 
 /* Footer */
 
