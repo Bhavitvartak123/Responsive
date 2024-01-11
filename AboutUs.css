@@ -178,6 +178,10 @@
         align-items: center;
     }
 
+    .sec2_Div2,img{
+        width: 90%;
+    }
+
     .section4{
         height: 2250px;
     }
