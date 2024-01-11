@@ -140,9 +140,9 @@
 @media (max-width:700px){
 
     
-    html{
+    /* html{
         font-size: 15px;
-    }
+    } */
     
     .header{
         padding: 0 1rem;
@@ -150,8 +150,8 @@
     }
     
     .header .logo{
-        height: 3rem;
-        width: 5rem;
+        height: 2rem;
+        width: 4rem;
     }
     
     .navbar{
@@ -159,7 +159,7 @@
     }
 
     .navbar_list{
-        gap: 10px;
+        gap: 2px;
     }
     /* NavbarEnd */
 
