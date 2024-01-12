@@ -19,6 +19,10 @@
     width: 160px;
 }
 
+.navbar {
+    overflow: auto;
+}
+
 .navbar_list {
     display: flex;
     gap: 3.8rem;
@@ -34,14 +38,11 @@ a {
 
 /* NavbarEnd */
 
-
-
 /* Main */
 .section1 {
     background-image: url("Logo/img3.png");
     background-repeat: no-repeat;
     height: 450px;
-
 }
 
 .section2 {
@@ -106,7 +107,6 @@ a {
     background-color: blueviolet;
 }
 
-
 .un_div1 {
     padding-top: 50px;
     width: 320px;
@@ -137,11 +137,7 @@ li {
 }
 
 
-
-
-
 /* Footer */
-
 .map {
     display: flex;
     justify-content: center;
@@ -178,27 +174,30 @@ li {
 
 
 @media (max-width:700px) {
-
-
     .header {
-        padding: 0 1rem;
+        padding: 0 2rem;
         height: 5rem;
     }
 
     .header .logo {
         height: 3rem;
-        width: 5rem;
+        width: 4rem;
     }
 
     .navbar_list {
-        gap: 10px;
+        gap: 5x;
+    }
+
+    .navbar_list,
+    li,
+    a {
+        font-size: small;
     }
 
     /* NavbarEnd */
 
 
     /* Main */
-
     .section1 {
         background-size: 100% 50%;
         height: 350px;
@@ -222,7 +221,6 @@ li {
     .section3 {
         height: 1250px;
         padding-top: 185px;
-
     }
 
     .sec3_div1 {
@@ -240,12 +238,16 @@ li {
     .TECH_STA {
         display: flex;
         color: #990000;
-        font-size: 29px;
+        font-size: 20px;
         font-weight: 600px;
         font-family: sans-serif;
         height: 90px;
         align-items: center;
         justify-content: center;
+    }
+
+    .sec2_div1_sub {
+        font-size: 25px;
     }
 
     .unorder_div {
@@ -264,7 +266,6 @@ li {
     }
 
     /* Footer */
-
     .map {
         display: flex;
         justify-content: center;
@@ -273,12 +274,9 @@ li {
         text-align: center;
         height: 1000px;
     }
-
-
 }
 
 @media only screen and (max-width: 900px) and (min-width: 700px) {
-
     .header {
         padding: 0 6rem;
         height: 5rem;
@@ -291,9 +289,7 @@ li {
 
     .navbar_list {
         gap: 10px;
-
     }
-
 
     /* Main */
 
@@ -307,25 +303,17 @@ li {
         text-align: center;
     }
 
-
-
-
     .section2 {
         flex-direction: column;
-
-
     }
 
     .sec2_div1 {
-
         text-align: center;
     }
-
 
     .section3 {
         height: 1550px;
         padding-top: 185px;
-
     }
 
     .sec3_div1 {
@@ -333,7 +321,6 @@ li {
         flex-direction: column;
         align-items: center;
     }
-
 
     .unorder_div {
         flex-direction: column;
@@ -357,5 +344,4 @@ li {
         align-items: center;
         text-align: center;
     }
-
 }
