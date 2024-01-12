@@ -178,12 +178,9 @@
         flex-direction: column;
         
     }
-
-
-
-
-
-    
+    #fname{
+        width: 350px;
+    }
 
 /* Footer */
 
@@ -195,7 +192,6 @@
     text-align: center;
     height: 1000px;
 }
-
 
 }
 
